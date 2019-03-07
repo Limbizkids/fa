@@ -2,68 +2,8 @@
 	margin: 0 auto;	
 }
 body{
-	background: url(limb.jpg);
+	background: url(image.jpg);
 	background-repeat: repeat;
 	background-size: cover;
 	background-attachment: fixed;
-};
-.button h2{
-      background-color: #7CFC00;
-      border: none;
-      color: red;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-};
-.button h2{
-      background-color: #7CFC00;
-      border: none;
-      color: yellow;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-};
-.button {
-      background-color: #7CFC00;
-      border: none;
-      color: red;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-};
-.button {
-      background-color: #7CFC00;
-      border: none;
-      color: red;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-};
-.button {
-      background-color: #7CFC00;
-      border: none;
-      color: red;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
 }
