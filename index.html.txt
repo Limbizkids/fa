@@ -22,6 +22,11 @@
 <body>
 	<br>
     <center>
+        <h2><button class="button" id="textx">Text</button></h2>
+        <h2><button class="button" id="imagex">Image</button></h2>
+        <h2><button class="button" id="videox">Video</button></h2>
+        <h2><button class="button" id="audiox">Audio</button></h2>
+        <h2><button class="button" id="stickerx">Big Sticker</button></h2></center>
     <center>
     </center>
     <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
