@@ -152,10 +152,10 @@ a.bttn {
   transition: 0.3s ease all;
 }
 a.bttn:hover {
-  color: #2376fc;
+  color: #ff0000;
 }
 a.bttn:focus {
-  color: #2376fc;
+  color: #ff0000;
 }
 
 .bttn {
