@@ -25,106 +25,6 @@ body{
     height: auto; 
 }
 
-.button {
-    background-color: #bababa; /* Green */
-    border: none;
-    color: white;
-    padding: 8px 42px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    margin: 1px 1px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.button6 {
-    background-color: #66ffff;
-    color: white;
-    width: 250px;
-    border-radius: 6px;
-    border: 2px solid #66ffff;
-}
-
-.button6:hover {
-    background-color: transparent;
-    color: black;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.button5 {
-    background-color: #3f3f3f;
-    color: black;
-    width: 250px;
-    border-radius: 6px;
-    border: 2px solid #3f3f3f;
-}
-
-.button5:hover {
-    background-color: transparent;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.button4 {
-    background-color: #555555;
-    color: white;
-    width: 250px;
-    border-radius: 6px;
-    border: 2px solid #555555;
-}
-
-.button4:hover {
-    background-color: transparent;
-    color: black;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.button3 {
-    background-color: #7c7c7c;
-    color: black;
-    width: 250px;
-    border-radius: 6px;
-    border: 2px solid #7c7c7c;
-}
-
-.button3:hover {
-    background-color: transparent;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.button2 {
-    background-color: #a5a5a5;
-    color: white;
-    width: 250px;
-    border-radius: 6px;
-    border: 2px solid #a5a5a5;
-}
-
-.button2:hover {
-    background-color: transparent;
-    color: black;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.button1 {
-    background-color: #cccccc;
-    color: black;
-    width: 250px;
-    border-radius: 6px;
-    border: 2px solid #cccccc;
-}
-
-.button1:hover {
-    background-color: transparent;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
 .responsive {
     max-width: 100%;
     height: auto;
@@ -146,7 +46,7 @@ body{
 }
 
 a.bttn {
-  color: white;
+  color: red;
   text-decoration: none;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s ease all;
@@ -165,11 +65,11 @@ a.bttn:focus {
   text-transform: uppercase;
   display: inline-block;
   text-align: center;
-  width: 270px;
+  width: 250px;
   font-weight: bold;
-  padding: 5px 0px;
-  border: 3px solid #ff0000;
-  border-radius: 1px;
+  padding: 1px 0px;
+  border: 2px solid #ffff00;
+  border-radius: 10px;
   position: relative;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
 }
@@ -194,6 +94,168 @@ a.bttn:focus {
   opacity: 1;
 }
 .bttn:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+a.bttn1 {
+  color: yellow;
+  text-decoration: none;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s ease all;
+}
+a.bttn1:hover {
+  color: #ff0000;
+}
+a.bttn1:focus {
+  color: #ff0000;
+}
+.bttn1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  width: 270px;
+  font-weight: bold;
+  padding: 1px 0px;
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.bttn1:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #00ffff;
+  z-index: -2;
+}
+.bttn1:hover:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+.bttn1:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+a.bttn2 {
+  color: green;
+  text-decoration: none;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s ease all;
+}
+a.bttn2:hover {
+  color: #ff0000;
+}
+a.bttn2:focus {
+  color: #ff0000;
+}
+.bttn2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  width: 270px;
+  font-weight: bold;
+  padding: 1px 0px;
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.bttn2:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #00ffff;
+  z-index: -2;
+}
+.bttn2:hover:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+.bttn2:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+a.bttn3 {
+  color: blue;
+  text-decoration: none;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s ease all;
+}
+a.bttn3:hover {
+  color: #ff0000;
+}
+a.bttn3:focus {
+  color: #ff0000;
+}
+.bttn3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  width: 270px;
+  font-weight: bold;
+  padding: 1px 0px;
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.bttn3:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #00ffff;
+  z-index: -2;
+}
+.bttn3:hover:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+.bttn3:focus:before {
   transition: 0.5s all ease;
   left: 0;
   right: 0;
