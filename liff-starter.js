@@ -168,16 +168,16 @@ function meProfile(){
             var stat = "Status Message is to long! Max 60 words";
         }
         if (tipe === 'profile') {
-            liff.sendMessages([{"messages": [{
-            "type":"image",
-            "originalContentUrl": prof.pictureUrl,
-            "previewImageUrl": prof.pictureUrl,
-            "animated": true,
-            "extension": "jpg",
-            "sentBy": {
-            "label": prof.displayName,
-            "iconUrl": prof.pictureUrl,
-            "linkUrl": "line://app/1647207293-rNJ7MlJm?type=profile"
+            liff.sendMessages([{messages: [{
+            type:"image",
+            originalContentUrl: prof.pictureUrl,
+            previewImageUrl: prof.pictureUrl,
+            animated: true,
+            extension: "jpg",
+            sentBy: {
+            label: prof.displayName,
+            iconUrl: prof.pictureUrl,
+            linkUrl: "line://app/1647207293-rNJ7MlJm?type=profile"
             }
             }
             ]
