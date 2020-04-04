@@ -34,7 +34,7 @@ function getP(){
         document.getElementById('audiox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: atob('jW71j2NRJkBMFW3IRWbiUOR8/EPg4OG6yMamvwRk1Q0djJUgHjkR9gixeRwXuZT5AAdiMNh1elCLqFDayUGE7zLdVaD9C6LWIAoUYkshmLZpTBqhG4+WnIAsbno9BQ/w5/kzIaVH/LU7NHJcvGykvwdB04t89/1O/w1cDnyilFU=')
+                text: atob('ALrAebAwRAIgIK7zAmG4TK0B7FlLLXoV9XfYVGUtl1yMbwZX_izQrnkCID1qWdGkswahARLoI_27q1-aJxLwHUiiO-M5wyzBXSlv&sig=AJpPlLswRQIhANFOvH3CsuBkylrAJ3OznoZCXWCjXT7oCyr0KfVoDHgeAiANRoOoKv5YCTRF9gZc5Pkq6gpYb3nWcI70ISvyxPzg7g==')
             }]).then(function () {
                 liff.closeWindow();
             });
