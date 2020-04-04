@@ -169,18 +169,20 @@ function meProfile(){
         }
         if (tipe === 'profile') {
             liff.sendMessages([{
+                type: "template",
+                altText: "Profile "+prof.displayName,
+                template: {
                     type:"image",
                     originalContentUrl: prof.pictureUrl,
                     previewImageUrl: prof.pictureUrl,
-                    animated: True,
                     extension: "jpg",
-                    sentBy: {
+                        sentBy: {
                         label: prof.displayName,
                         iconUrl: prof.pictureUrl,
                         linkUrl: "line://app/1647207293-rNJ7MlJm?type=profile"
+                        }
                     }
-                }
-                              ]).then(function () {
+            }]).then(function () {
                 liff.closeWindow();
             });
         }
