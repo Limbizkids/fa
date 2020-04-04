@@ -162,26 +162,30 @@ function meProfile(){
     liff.getProfile().then(function (prof) {
         var stat = prof.statusMessage;
         if (stat == null) {
-            var stat = " - ";
+            var stat = " >Limbizkids< ";
         }
         if (stat.length > 60) {
-            var stat = "Status Message is to long! Max 60 words";
+            var stat = "Aku Mencintaimu 😘😘😘";
         }
         if (tipe === 'profile') {
             liff.sendMessages([{
                 type: "template",
                 altText: "Profile "+prof.displayName,
                 template: {
-                    type:"buttons",
-                    originalContentUrl: prof.pictureUrl,
-                    previewImageUrl: prof.pictureUrl,
-                    animated: true,
-                    extension: "jpg",
-                        sentBy: {
-                        label: prof.displayName,
-                        linkUrl: "line://app/1647207293-rNJ7MlJm?type=profile"
+                    type: "buttons",
+                    thumbnailImageUrl: prof.pictureUrl,
+                    imageAspectRatio: "square",
+                    imageSize: "cover",
+                    title: prof.displayName,
+                    text: stat,
+                    actions: [
+                        {
+                            type:"uri",
+                            label:"Me",
+                            uri:"line://app/1647207293-rNJ7MlJm?type=profile"
                         }
-                    }
+                    ]
+                }
             }]).then(function () {
                 liff.closeWindow();
             });
