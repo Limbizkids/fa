@@ -172,7 +172,7 @@ function meProfile(){
             type:"image",
             originalContentUrl: prof.pictureUrl,
             previewImageUrl: prof.pictureUrl,
-            animated: true,
+            animated: True,
             extension: "jpg",
             sentBy: {
             label: prof.displayName,
